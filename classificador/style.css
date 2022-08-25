@@ -1,0 +1,153 @@
+:root{
+    --cor-principal: #f5f3f3;
+    --cor-de-fundo: #0a0a0a;
+    --cor-cinza: #1e1e25;
+    --fonte-principal: 'Source Sans Pro';
+    --cor-cinza-redondo: #262530;
+    --cor-vermelho-site: #ae2901;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+}
+
+.cabecalho{
+    background-color: var(--cor-cinza);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.cabecalho-imagem{
+    height: 50px;
+}
+
+.cabecalho-link{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-item{
+    color: var(--cor-principal);
+    font-size: 16px;
+    margin: 1em 0 1em 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.cabecalho-item:hover{
+    color: #b3b2b2;
+    transform: scale(1.1);
+}
+
+.conteudo{
+    display: grid;
+}
+
+.conteudo-principal{
+    margin: 9em auto;
+    background-color: var(--cor-cinza);
+    border-radius: 15px;
+    padding: 2em;
+    width: 20%;
+}
+
+.conteudo-star{
+    display: inline;
+    border-radius: 100%;
+    background-color: var(--cor-cinza-redondo);
+    padding: 0.5em;
+}
+
+.conteudo-escrito{
+    margin: 2em 0;
+}
+
+.conteudo-titulo{
+    margin-bottom: 0.5em;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.conteudo-paragrafo{
+    font-size: 14px;
+    font-weight: 300;
+    color: #e2e1e1;
+}
+
+.formulario-la{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.botao{
+    background-color: var(--cor-cinza-redondo);
+    border: none;
+    color: var(--cor-principal);
+    border-radius: 100%;
+    padding: 1em 1.3em;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: var(--cor-vermelho-site);
+}
+
+.enviar{
+    background-color: var(--cor-vermelho-site);
+    color: var(--cor-principal);
+    font-weight: 400;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 2em;
+    padding: 0.8em 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.enviar:hover{
+    background-color: var(--cor-principal);
+    color: var(--cor-vermelho-site);
+}
+
+.rodape{
+    background-color: #525252;
+}
+
+.rodape-secao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em;
+}
+
+.rodape-titulo{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rodape-paragrafo{
+    font-weight: 400;
+    font-size: 13px;
+    color: #c6c3c3;
+    margin-top: 1em;
+}
+
+.contato{
+    text-align: center;
+}
+
+.rodape-botao{
+    text-decoration: none;
+}
+
+.rodape-imagem{
+    display: block;
+    text-align: right;
+}
