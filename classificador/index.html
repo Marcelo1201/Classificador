@@ -24,29 +24,38 @@
 
     <main class="conteudo">
         <section class="conteudo-principal">
-            <h2 class="conteudo-star">⭐</h2>
-            <div class="conteudo-escrito">
-                <h2 class="conteudo-titulo">Avalie-nos</h2>
-                <p class="conteudo-paragrafo">Nos ajude avaliando nosso trabalho. Seu feedback é muito importante para melhorarmos nossa plataforma!</p>
+            <div id="conteudo">
+                <h2 class="conteudo-star">⭐</h2>
+                <div class="conteudo-escrito">
+                    <h2 class="conteudo-titulo">Avalie-nos</h2>
+                    <p class="conteudo-paragrafo">Nos ajude avaliando nosso trabalho. Seu feedback é muito importante para melhorarmos nossa plataforma!</p>
+                </div>
+                <form class="formulario" action="#">
+                    <div class="formulario-bloco">
+                        <label class="formulario-la" for="avaliar">
+                            <input class="botao" type="button" name="formu" id="avaliar" value="1" onmouseenter="botaoentrar()" onmouseout="botaosair()" onclick="botaoclick()">
+                        </label>
+                        <label class="formulario-la" for="avaliar">
+                            <input class="botao" type="button" name="formu" id="avaliar" value="2" onmouseenter="botaoentrar()" onmouseout="botaosair()"  onclick="botaoclick()">
+                        </label>
+                        <label class="formulario-la" for="avaliar">
+                            <input class="botao" type="button" name="formu" id="avaliar" value="3" onmouseenter="botaoentrar()" onmouseout="botaosair()"  onclick="botaoclick()">
+                        </label>
+                        <label class="formulario-la" for="avaliar">
+                            <input class="botao" type="button" name="formu" id="avaliar" value="4" onmouseenter="botaoentrar()" onmouseout="botaosair()"  onclick="botaoclick()">
+                        </label>
+                        <label class="formulario-la" for="avaliar">
+                            <input class="botao" type="button" name="formu" id="avaliar" value="5" onmouseenter="botaoentrar()" onmouseout="botaosair()"  onclick="botaoclick()">
+                        </label>
+                    </div>
+                        <input class="enviar" type="submit" value="Avaliar" id="idenviar" onmouseenter="entrar()" onmouseout="sair()" onclick="clicar()">         
+                </form>
             </div>
-            <form class="formulario" action="#">
-                <label class="formulario-la" for="avaliar">
-                    <input class="botao" type="button" name="formu" id="avaliar" value="1" onclick="clicar()">
-                </label>
-                <label class="formulario-la" for="avaliar">
-                    <input class="botao" type="button" name="formu" id="avaliar" value="2">
-                </label>
-                <label class="formulario-la" for="avaliar">
-                    <input class="botao" type="button" name="formu" id="avaliar" value="3">
-                </label>
-                <label class="formulario-la" for="avaliar">
-                    <input class="botao" type="button" name="formu" id="avaliar" value="4">
-                </label>
-                <label class="formulario-la" for="avaliar">
-                    <input class="botao" type="button" name="formu" id="avaliar" value="5">
-                </label>
-                    <input class="enviar" type="submit" value="Avaliar">         
-            </form>
+            <div id="conteudo-avalie">
+                <h2 id="titulo-avalie">Obrigado!</h2>
+                <img id="imagem-avalie" src="logo.png" alt="">
+                <p id="paragrafo-avalie">Agradecemos o seu apoio. Se precisar de suporte, entre em contato com nós!</p>
+            </div>
         </section>
     </main>
 

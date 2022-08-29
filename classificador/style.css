@@ -79,6 +79,11 @@ body{
     color: #e2e1e1;
 }
 
+.formulario-bloco{
+    display: flex;
+    justify-content: space-around;
+}
+
 .formulario-la{
     width: 100%;
     display: flex;
@@ -96,7 +101,7 @@ body{
 }
 
 .botao:hover{
-    background-color: var(--cor-vermelho-site);
+    background-color: #7b7b7b;
 }
 
 .enviar{
@@ -112,10 +117,28 @@ body{
     text-transform: uppercase;
 }
 
-.enviar:hover{
-    background-color: var(--cor-principal);
+#conteudo-avalie{
+    display: none;
+    text-align: center;
+}
+
+#titulo-avalie{
+    font-size: 23px;
+    font-weight: 600;
     color: var(--cor-vermelho-site);
 }
+
+#imagem-avalie{
+    height: 100px;
+    margin: 2em auto;
+}
+
+#paragrafo-avalie{
+    font-size: 14px;
+    font-weight: 300;
+    color: #e2e1e1;
+}
+
 
 .rodape{
     background-color: #525252;
