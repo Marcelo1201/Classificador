@@ -1,0 +1,82 @@
+:root{
+    --cor-de-fonte-branca: #f1efef;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-image: url('fundo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cabecalho{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+}
+
+.logohp{
+    height: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+}
+
+.lista-link{
+    text-decoration: none;
+    margin: 0 1em;
+    color: var(--cor-de-fonte-branca);
+    transition: 0.5 all;
+}
+
+.entrar{
+    background-color: #010194;
+    padding: 0.3em 0.5em;
+    border-radius: 10px;
+}
+
+.lista-link:hover{
+    color: #ffffff
+}
+
+li{
+    transition: 0.5s;
+}
+
+li:hover{
+    transform: scale(1.3);
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteudo{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #c7c7c7;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.conteudo:hover{
+    transform: scale(1.5);
+}
+
+.conteudo-paragrafo{
+    width: 250px;
+    text-align: center;
+}
+
+.rodape{
+    background-color: purple;
+}
